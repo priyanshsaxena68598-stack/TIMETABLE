@@ -1,0 +1,7 @@
+*.sql
+*.env
+profiles.yml
+logs/
+node_modules/
+venv/
+.venv/

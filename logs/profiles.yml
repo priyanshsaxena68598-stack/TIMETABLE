@@ -1,0 +1,13 @@
+Set-Content -Path "$env:USERPROFILE\.dbt\profiles.yml" -Value @"
+dbt_timetable:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      catalog: main
+      schema: default
+      host: dbc-058e5d77-4bb7.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/b3a59dcac7f57bbc
+      token: dapibde695984656b1f7cc0e24f7633b26d3
+      auth_type: pat
+"@

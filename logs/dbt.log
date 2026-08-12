@@ -1,0 +1,215 @@
+[0m19:08:48.322140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD721D5E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD6FAE0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD74A3B9D0>]}
+
+
+============================== 19:08:48.353019 | e9ec0e0f-6720-4e47-a0e5-d535b1b67277 ==============================
+[0m19:08:48.353019 [info ] [MainThread]: Running with dbt=1.12.0
+[0m19:08:48.359126 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\priya\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init dbt_timetable', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m19:08:48.479512 [debug] [MainThread]: Starter project path: C:\Users\priya\.vscode\timetable\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:08:48.571974 [info ] [MainThread]: Setting up your profile.
+[0m19:12:55.062326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002899A071550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028997974A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002899C8C39D0>]}
+
+
+============================== 19:12:55.069549 | 76b49b52-681c-4e66-897d-972745a2323c ==============================
+[0m19:12:55.069549 [info ] [MainThread]: Running with dbt=1.12.0
+[0m19:12:55.071212 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\priya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init dbt_timetable', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m19:12:55.093650 [info ] [MainThread]: A project called dbt_timetable already exists here.
+[0m19:12:55.094961 [debug] [MainThread]: Command `dbt init` succeeded at 19:12:55.094757 after 0.51 seconds
+[0m19:12:55.095437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002899C712650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002899C707BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002899C96C7C0>]}
+[0m19:12:55.095899 [debug] [MainThread]: Flushing usage events
+[0m19:12:57.786046 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:49:19.655958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022182A81550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022185294B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221852951D0>]}
+
+
+============================== 19:49:19.665189 | 5455d94c-74f9-4200-a4d9-034eb0dec79f ==============================
+[0m19:49:19.665189 [info ] [MainThread]: Running with dbt=1.12.0
+[0m19:49:19.665946 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\priya\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug', 'log_path': 'logs'}
+[0m19:49:19.714186 [info ] [MainThread]: dbt version: 1.12.0
+[0m19:49:19.715087 [info ] [MainThread]: python version: 3.14.0
+[0m19:49:19.715589 [info ] [MainThread]: python path: C:\Users\priya\.vscode\timetable\.venv\Scripts\python.exe
+[0m19:49:19.716215 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m19:49:19.718179 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+cannot access local variable 'summary_message' where it is not associated with a value
+[0m19:49:19.724974 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\priya\.vscode\timetable\.venv\Lib\site-packages\dbt\cli\requires.py", line 190, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\.vscode\timetable\.venv\Lib\site-packages\dbt\cli\requires.py", line 136, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\priya\.vscode\timetable\.venv\Lib\site-packages\dbt\cli\main.py", line 439, in debug
+    results = task.run()
+  File "C:\Users\priya\.vscode\timetable\.venv\Lib\site-packages\dbt\task\debug.py", line 114, in run
+    load_profile_status: SubtaskStatus = self._load_profile()
+                                         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\priya\.vscode\timetable\.venv\Lib\site-packages\dbt\task\debug.py", line 201, in _load_profile
+    profile_names, summary_message = self._choose_profile_names()
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\priya\.vscode\timetable\.venv\Lib\site-packages\dbt\task\debug.py", line 276, in _choose_profile_names
+    return profiles, summary_message
+                     ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'summary_message' where it is not associated with a value
+
+[0m19:49:19.726121 [debug] [MainThread]: Command `dbt debug` failed at 19:49:19.725975 after 0.18 seconds
+[0m19:49:19.726547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022185122650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221851172F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002218513DBF0>]}
+[0m19:49:19.726952 [debug] [MainThread]: Flushing usage events
+[0m19:49:22.358620 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:50:22.507581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D135011550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D132920A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1378639D0>]}
+
+
+============================== 19:50:22.512037 | 02412567-61e4-4ee2-89cc-b14fbe03d664 ==============================
+[0m19:50:22.512037 [info ] [MainThread]: Running with dbt=1.12.0
+[0m19:50:22.513008 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug --profiles-dir .', 'log_path': 'logs'}
+[0m19:50:22.525806 [info ] [MainThread]: dbt version: 1.12.0
+[0m19:50:22.526395 [info ] [MainThread]: python version: 3.14.0
+[0m19:50:22.526887 [info ] [MainThread]: python path: C:\Users\priya\.vscode\timetable\.venv\Scripts\python.exe
+[0m19:50:22.527561 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m19:50:22.528277 [info ] [MainThread]: Using profiles dir at .
+[0m19:50:22.529081 [info ] [MainThread]: Using profiles.yml file at .\profiles.yml
+[0m19:50:22.529564 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\priya\.vscode\timetable\dbt_project.yml
+[0m19:50:22.530460 [info ] [MainThread]: Configuration:
+[0m19:50:22.531078 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:50:22.531610 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:50:22.532328 [info ] [MainThread]: Required dependencies:
+[0m19:50:22.536034 [debug] [MainThread]: Executing "git --help"
+[0m19:50:22.545073 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m19:50:22.546500 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:50:22.547481 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m19:50:22.548035 [info ] [MainThread]: dbt looked for a profiles.yml file in .\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:50:22.548419 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\priya\.vscode\timetable\dbt_project.yml> not found
+
+[0m19:50:22.549153 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m19:50:22.550078 [debug] [MainThread]: Command `dbt debug` failed at 19:50:22.549949 after 0.25 seconds
+[0m19:50:22.550471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1376B2650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1378F8710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D13790C8D0>]}
+[0m19:50:22.550885 [debug] [MainThread]: Flushing usage events
+[0m19:50:24.511699 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:27:08.540121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283D8ECD550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283D67D4A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283DB73F9D0>]}
+
+
+============================== 23:27:08.544811 | 2efaf3db-18ae-4c7b-98f5-3f43507dbd05 ==============================
+[0m23:27:08.544811 [info ] [MainThread]: Running with dbt=1.12.0
+[0m23:27:08.545292 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\priya\\.dbt', 'invocation_command': 'dbt debug', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m23:27:08.553576 [info ] [MainThread]: dbt version: 1.12.0
+[0m23:27:08.553963 [info ] [MainThread]: python version: 3.14.0
+[0m23:27:08.554323 [info ] [MainThread]: python path: C:\Users\priya\.vscode\timetable\.venv\Scripts\python.exe
+[0m23:27:08.554599 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m23:27:09.176454 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:27:09.176784 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:27:09.176983 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:27:09.603406 [info ] [MainThread]: Using profiles dir at C:\Users\priya\.dbt
+[0m23:27:09.603933 [info ] [MainThread]: Using profiles.yml file at C:\Users\priya\.dbt\profiles.yml
+[0m23:27:09.604239 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\priya\.vscode\timetable\dbt_project.yml
+[0m23:27:09.604567 [info ] [MainThread]: adapter type: databricks
+[0m23:27:09.604869 [info ] [MainThread]: adapter version: 1.10.9
+[0m23:27:09.605204 [info ] [MainThread]: Configuration:
+[0m23:27:09.605473 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:27:09.605730 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:27:09.605948 [info ] [MainThread]: Required dependencies:
+[0m23:27:09.606203 [debug] [MainThread]: Executing "git --help"
+[0m23:27:09.609451 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m23:27:09.609860 [info ] [MainThread]: Connection:
+[0m23:27:09.610200 [info ] [MainThread]:   host: dbc-058e5d77-4bb7.cloud.databricks.com
+[0m23:27:09.610477 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/YOUR_SQL_WAREHOUSE_ID
+[0m23:27:09.610769 [info ] [MainThread]:   catalog: hive_metastore
+[0m23:27:09.611073 [info ] [MainThread]:   schema: default
+[0m23:27:09.611528 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m23:27:09.831725 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m23:27:09.832020 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m23:27:09.832224 [debug] [MainThread]: Using databricks connection "debug"
+[0m23:27:09.832401 [debug] [MainThread]: On debug: select 1 as id
+[0m23:27:09.832563 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:27:11.239833 [error] [MainThread]: databricks-sql-connector adapter: ThriftBackend.attempt_request: Exception: %s
+[0m23:27:11.258501 [error] [MainThread]: Databricks adapter: Connection(session-id=Unknown) - Exception while trying to create connection: Error during request to server: : Credential was not sent or was of an unsupported type for this API.. 
+Error properties: attempt=1/30, bounded-retry-delay=None, elapsed-seconds=1.3813090324401855/900.0, error-message=: Credential was not sent or was of an unsupported type for this API., http-code=401, method=OpenSession, no-retry-reason=non-retryable error, original-exception=, query-id=None, session-id=None
+[0m23:27:11.259117 [debug] [MainThread]: Databricks adapter: Exception while trying to execute query
+select 1 as id
+: Database Error
+  Error during request to server: : Credential was not sent or was of an unsupported type for this API.. 
+[0m23:27:11.259392 [debug] [MainThread]: On debug: No close available on handle
+[0m23:27:11.259589 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:27:11.259959 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m23:27:11.260274 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\priya\.vscode\timetable\dbt_project.yml> not found
+
+[0m23:27:11.260566 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m23:27:11.260798 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Database Error
+    Error during request to server: : Credential was not sent or was of an unsupported type for this API.. 
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:27:11.261381 [debug] [MainThread]: Command `dbt debug` failed at 23:27:11.261291 after 2.86 seconds
+[0m23:27:11.261819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283F7C4CFC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283F7D683B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283F7C02470>]}
+[0m23:27:11.262337 [debug] [MainThread]: Flushing usage events
+[0m23:27:12.833877 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:45:48.495184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439BC8D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024399594A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439E5579D0>]}
+
+
+============================== 23:45:48.497971 | 4b5ddfae-b755-419b-ad79-036dba9ebb6a ==============================
+[0m23:45:48.497971 [info ] [MainThread]: Running with dbt=1.12.0
+[0m23:45:48.498556 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\priya\\.dbt', 'invocation_command': 'dbt test', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m23:45:48.498896 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\priya\.vscode\timetable\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:45:48.499427 [debug] [MainThread]: Command `dbt test` failed at 23:45:48.499343 after 0.13 seconds
+[0m23:45:48.499671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439E5E8180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439E4E70B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439E581E10>]}
+[0m23:45:48.499905 [debug] [MainThread]: Flushing usage events
+[0m23:45:49.756402 [debug] [MainThread]: An error was encountered while trying to flush usage events
+{"data":{"log_version":3,"version":"=2.0.0-preview.200"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.200","name":"MainReportVersion","pid":7860,"thread":"tokio-rt-worker","ts":"2026-07-26T08:29:08.968667Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\priya\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false,\"manage_state\":false}","name":"MainReportArgs","pid":7860,"thread":"tokio-rt-worker","ts":"2026-07-26T08:29:08.969566Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"debug","msg":"No platform credentials found, skipping remote license","name":"Generic","pid":7860,"thread":"tokio-rt-worker","ts":"2026-07-26T08:29:09.045469Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":7860,"thread":"main","ts":"2026-07-26T08:29:09.995059Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"debug","msg":"Trial license expired for this machine (403)","name":"Generic","pid":7860,"thread":"main","ts":"2026-07-26T08:29:10.881375Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":7860,"thread":"main","ts":"2026-07-26T08:29:11.925720Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"debug","msg":"Trial license expired for this machine (403)","name":"Generic","pid":7860,"thread":"main","ts":"2026-07-26T08:29:12.732588Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":7860,"thread":"tokio-rt-worker","ts":"2026-07-26T08:29:12.733589Z"}}
+{"data":{"completed_at":"2026-07-26T08:29:12.913150Z","elapsed":3.9512429237365723,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019f9d8a-d395-7d02-a7fd-2515b0305bb2","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [4.0s]","name":"CommandCompleted","pid":7860,"thread":"tokio-rt-worker","ts":"2026-07-26T08:29:12.913472Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.200"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.200","name":"MainReportVersion","pid":27856,"thread":"tokio-rt-worker","ts":"2026-07-27T11:29:01.572090Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\priya\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false,\"manage_state\":false}","name":"MainReportArgs","pid":27856,"thread":"tokio-rt-worker","ts":"2026-07-27T11:29:01.573048Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"debug","msg":"No platform credentials found, skipping remote license","name":"Generic","pid":27856,"thread":"tokio-rt-worker","ts":"2026-07-27T11:29:01.641285Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":27856,"thread":"main","ts":"2026-07-27T11:29:02.980175Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"debug","msg":"Trial license expired for this machine (403)","name":"Generic","pid":27856,"thread":"main","ts":"2026-07-27T11:29:03.862140Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":27856,"thread":"main","ts":"2026-07-27T11:29:04.879468Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"debug","msg":"Trial license expired for this machine (403)","name":"Generic","pid":27856,"thread":"main","ts":"2026-07-27T11:29:05.720443Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":27856,"thread":"tokio-rt-worker","ts":"2026-07-27T11:29:05.725081Z"}}
+{"data":{"completed_at":"2026-07-27T11:29:05.973825Z","elapsed":4.406612396240234,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019fa355-de32-7890-8474-6154f564135b","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [4.4s]","name":"CommandCompleted","pid":27856,"thread":"tokio-rt-worker","ts":"2026-07-27T11:29:05.999383Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.200"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.200","name":"MainReportVersion","pid":37656,"thread":"tokio-rt-worker","ts":"2026-07-28T16:24:32.059599Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\priya\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false,\"manage_state\":false}","name":"MainReportArgs","pid":37656,"thread":"tokio-rt-worker","ts":"2026-07-28T16:24:32.060357Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"debug","msg":"No platform credentials found, skipping remote license","name":"Generic","pid":37656,"thread":"tokio-rt-worker","ts":"2026-07-28T16:24:32.095245Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":37656,"thread":"main","ts":"2026-07-28T16:24:32.827831Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"debug","msg":"Trial license expired for this machine (403)","name":"Generic","pid":37656,"thread":"main","ts":"2026-07-28T16:24:33.586088Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":37656,"thread":"main","ts":"2026-07-28T16:24:33.919218Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"debug","msg":"Trial license expired for this machine (403)","name":"Generic","pid":37656,"thread":"main","ts":"2026-07-28T16:24:34.919020Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":37656,"thread":"tokio-rt-worker","ts":"2026-07-28T16:24:34.919429Z"}}
+{"data":{"completed_at":"2026-07-28T16:24:35.126833Z","elapsed":3.0727438926696777,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019fa98a-c615-7522-9025-a9d75d615ee9","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [3.1s]","name":"CommandCompleted","pid":37656,"thread":"tokio-rt-worker","ts":"2026-07-28T16:24:35.127080Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.200"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.200","name":"MainReportVersion","pid":1800,"thread":"tokio-rt-worker","ts":"2026-07-30T11:22:49.729848Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\priya\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false,\"manage_state\":false}","name":"MainReportArgs","pid":1800,"thread":"tokio-rt-worker","ts":"2026-07-30T11:22:49.730780Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"debug","msg":"No platform credentials found, skipping remote license","name":"Generic","pid":1800,"thread":"tokio-rt-worker","ts":"2026-07-30T11:22:49.776561Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"debug","msg":"Requesting trial license from https://cloud.getdbt.com/api/private/trial-licenses/","name":"Generic","pid":1800,"thread":"main","ts":"2026-07-30T11:22:50.511734Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"debug","msg":"Trial license retrieved","name":"Generic","pid":1800,"thread":"main","ts":"2026-07-30T11:22:52.507077Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"debug","msg":"Trial license from trial license server is expired","name":"Generic","pid":1800,"thread":"tokio-rt-worker","ts":"2026-07-30T11:22:52.517524Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"trial_expired\",\n  \"licensing_enabled\": true,\n  \"expires_at\": \"2026-04-26T05:17:57+00:00\",\n  \"license_type\": \"trial\"\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"info","msg":"{\n  \"status\": \"trial_expired\",\n  \"licensing_enabled\": true,\n  \"expires_at\": \"2026-04-26T05:17:57+00:00\",\n  \"license_type\": \"trial\"\n}","name":"ShowNode","pid":1800,"thread":"tokio-rt-worker","ts":"2026-07-30T11:22:52.518188Z"}}
+{"data":{"completed_at":"2026-07-30T11:22:53.222603Z","elapsed":3.4975662231445312,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019fb2c3-45c5-7ff2-806a-148e00f29e0f","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [3.5s]","name":"CommandCompleted","pid":1800,"thread":"tokio-rt-worker","ts":"2026-07-30T11:22:53.222796Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.200"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ff575-9c45-7fd0-b60d-8b448b5906d3","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.200","name":"MainReportVersion","pid":19800,"thread":"tokio-rt-worker","ts":"2026-08-12T10:12:33.562855Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\priya\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ff575-9c45-7fd0-b60d-8b448b5906d3","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false,\"manage_state\":false}","name":"MainReportArgs","pid":19800,"thread":"tokio-rt-worker","ts":"2026-08-12T10:12:33.563971Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ff575-9c45-7fd0-b60d-8b448b5906d3","level":"debug","msg":"No platform credentials found, skipping remote license","name":"Generic","pid":19800,"thread":"tokio-rt-worker","ts":"2026-08-12T10:12:33.618368Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ff575-9c45-7fd0-b60d-8b448b5906d3","level":"debug","msg":"Trial license from file C:\\Users\\priya\\.dbt\\license.trial is expired","name":"Generic","pid":19800,"thread":"tokio-rt-worker","ts":"2026-08-12T10:12:33.632473Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"trial_expired\",\n  \"licensing_enabled\": true,\n  \"expires_at\": \"2026-04-26T05:17:57+00:00\",\n  \"license_type\": \"trial\"\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019ff575-9c45-7fd0-b60d-8b448b5906d3","level":"info","msg":"{\n  \"status\": \"trial_expired\",\n  \"licensing_enabled\": true,\n  \"expires_at\": \"2026-04-26T05:17:57+00:00\",\n  \"license_type\": \"trial\"\n}","name":"ShowNode","pid":19800,"thread":"tokio-rt-worker","ts":"2026-08-12T10:12:33.634142Z"}}
+{"data":{"completed_at":"2026-08-12T10:12:35.761836Z","elapsed":2.20683217048645,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ff575-9c45-7fd0-b60d-8b448b5906d3","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [2.2s]","name":"CommandCompleted","pid":19800,"thread":"tokio-rt-worker","ts":"2026-08-12T10:12:35.765635Z"}}

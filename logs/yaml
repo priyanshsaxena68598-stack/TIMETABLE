@@ -1,0 +1,12 @@
+dbt_timetable:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: YOUR_POSTGRES_PASSWORD  # <--- Change this to your real PostgreSQL password!
+      dbname: timetable_db          # <--- Change this to your PostgreSQL database name!
+      schema: public
+      threads: 1
+  target: dev
